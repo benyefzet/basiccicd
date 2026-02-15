@@ -1,0 +1,8 @@
+name: Security Scans
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'  # Uruchomienie w każdy poniedziałek o północy
+  workflow_dispatch:     # Możliwość ręcznego uruchomienia
+  pull_request:
+    branches: [ main ]
