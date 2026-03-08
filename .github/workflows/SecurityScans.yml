@@ -41,7 +41,7 @@ jobs:
         continue-on-error: true
 
   docker-scan:
-    name: Docker Image Scan
+    #name: Docker Image Scan
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
